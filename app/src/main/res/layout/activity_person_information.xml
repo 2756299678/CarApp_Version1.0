@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+    android:weightSum="1">
+    <View style="@style/normal_line_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-20dp"/>
+    <LinearLayout
+        style="@style/top_layout"
+        android:id="@+id/person_liner_touxiang"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            style="@style/usertext"
+            android:id="@+id/person_text_view_pic"
+            android:text=" 头像：" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/person_image_view_pic"
+            android:src="@drawable/icon"
+            android:layout_marginRight="25dp"
+            />
+    </LinearLayout>
+    <View style="@style/normal_line_style"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/person_text_view_name"
+            android:layout_height="match_parent"
+            android:layout_width="200px"
+            style="@style/usertext"
+            android:text="   姓名："
+            android:textSize="16sp"
+            app:srcCompat="@drawable/shouji"
+            android:layout_marginTop="25dp"/>
+        <View
+            android:layout_height="3px"
+            android:background="#E75A48"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+        <EditText
+            android:id="@+id/person_edit_text_name"
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="-43dp"
+            android:background="@null"
+            android:textSize="16sp"
+            android:hint="请输入姓名"
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/person_text_view_sex"
+            android:layout_height="match_parent"
+            android:layout_width="200px"
+            style="@style/usertext"
+            android:text="   性别："
+            android:textSize="16sp"
+            app:srcCompat="@drawable/shouji"
+            android:layout_marginTop="25dp"/>
+        <View
+            android:layout_height="3px"
+            android:background="#E75A48"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+        <Spinner
+            android:id="@+id/person_spinner_sex"
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="-43dp"
+            android:background="@null"
+            android:textSize="16sp"
+           android:entries="@array/sex"
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/person_text_view_tizhong"
+            android:layout_height="match_parent"
+            android:layout_width="200px"
+            style="@style/usertext"
+            android:text="   体重："
+            android:textSize="16sp"
+            app:srcCompat="@drawable/shouji"
+            android:layout_marginTop="25dp"/>
+        <View
+            android:layout_height="3px"
+            android:background="#E75A48"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+
+        <EditText
+            android:id="@+id/person_edit_text_tizhong"
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="-43dp"
+            android:background="@null"
+            android:textSize="16sp"
+            android:numeric="decimal"
+            android:hint="请输入体重"
+
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/person_button_save2"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="保存"
+        android:textColor="@color/type1_colorAccent"
+        android:background="@drawable/bt_shape"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>

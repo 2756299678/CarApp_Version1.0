@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+    android:weightSum="1">
+    <View style="@style/normal_line_style"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-20dp"/>
+    <LinearLayout
+        style="@style/top_layout"
+        android:id="@+id/person_liner_touxiang"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            style="@style/usertext"
+            android:id="@+id/person_text_view_pic"
+            android:text=" 头像：" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/person_image_view_pic"
+            android:src="@drawable/car"
+            android:layout_marginRight="25dp"
+            />
+    </LinearLayout>
+    <View style="@style/normal_line_style"/>
+    <LinearLayout
+        style="@style/mid_layout"
+        android:layout_marginTop="0.5dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="-5dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_height="50px"
+            android:layout_width="50px"
+            android:layout_weight="5.67"
+            style="@style/usertext"
+            android:id="@+id/person_text_view_name"
+            android:text=" 昵称：" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="203dp"
+            android:id="@+id/person_edit_text_name"
+            android:text="随风的叶子"
+            android:layout_weight="4.62"
+            android:textColor="#808080"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/mid_layout"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginBottom="-15dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp"
+        android:layout_weight="0.04">
+        <TextView
+            android:layout_height="50px"
+            android:layout_width="50px"
+            android:layout_weight="5.67"
+            style="@style/usertext"
+            android:id="@+id/person_text_view_phone"
+            android:text=" 手机号：" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="203dp"
+            android:id="@+id/person_edit_text_phone"
+            android:text="14730296735"
+            android:layout_weight="4.62"
+            android:textColor="#808080"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/mid_layout"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginBottom="-15dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp"
+        android:layout_weight="0.04">
+        <TextView
+            android:layout_height="50px"
+            android:layout_width="50px"
+            android:layout_weight="5.67"
+            style="@style/usertext"
+            android:id="@+id/person_text_view_sex"
+            android:text=" 性别：" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="203dp"
+            android:id="@+id/person_edit_text_sex"
+            android:text="男"
+            android:layout_weight="4.62"
+            android:textColor="#808080"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/bottom_layout"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginBottom="-15dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp"
+        android:layout_weight="0.04">
+        <TextView
+            android:layout_height="50px"
+            android:layout_width="50px"
+            android:layout_weight="5.67"
+            style="@style/usertext"
+            android:id="@+id/person_text_view_weight"
+            android:text=" 体重：" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="203dp"
+            android:id="@+id/person_edit_text_weight"
+            android:text="56"
+            android:layout_weight="4.62"
+            android:textColor="#808080"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="5dp"
+            android:id="@+id/person_edit_text_weight_view"
+            android:text="kg"
+            android:layout_weight="2"
+            android:textColor="#808080"
+            android:gravity="right"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+    </LinearLayout>
+    <View style="@style/normal_line_style"
+        android:layout_marginTop="15.5dp"/>
+    <Button
+        android:id="@+id/person_button_save"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="保存"
+        android:textColor="@color/type1_colorAccent"
+        android:background="@drawable/bt_shape"
+        android:textStyle="bold" />
+</LinearLayout>

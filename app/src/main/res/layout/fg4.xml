@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+    >
+
+    <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:gravity="center_vertical"
+            android:focusable="true"
+            android:clickable="true"
+            android:id="@+id/set_liner_person"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon"
+                android:id="@+id/set_image_touxiang"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                >
+                <TextView
+                    style="@style/usertext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/set_text_view_my_name"
+                    android:text="车载App用户" />
+                <TextView
+                    style="@style/usertext"
+                    android:id="@+id/set_text_view_my_phone"
+                    android:text="14730296735" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout
+            android:id="@+id/set_liner_my_message"
+            style="@style/top_layout">
+            <TextView
+                style="@style/usertext"
+                android:id="@+id/set_text_view_my_message"
+                android:text="联系人设置" />
+            <ImageView
+                style="@style/img_arrow"
+                android:id="@+id/set_image_my_message"
+                />
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View style="@style/bg_line"/>
+        <!-- 无圆角-->
+        <LinearLayout
+            style="@style/mid_layout"
+            android:id="@+id/set_liner_link_user"
+            >
+            <TextView
+                style="@style/usertext"
+                android:id="@+id/set_text_view_link_user"
+                android:text="功能设置" />
+            <ImageView
+                style="@style/img_arrow"
+                android:id="@+id/set_image_link_user"
+                />
+        </LinearLayout>
+        <View style="@style/bg_line"/>
+        <!-- 下圆角-->
+        <LinearLayout
+            style="@style/bottom_layout"
+            android:id="@+id/set_liner_set"
+            >
+            <TextView
+                style="@style/usertext"
+                android:id="@+id/set_text_view_set"
+                android:text="辅助功能" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout">
+        <LinearLayout
+            style="@style/single_layout"
+            android:id="@+id/set_liner_function"
+            >
+            <TextView
+                style="@style/usertext"
+                android:text="关于我们"
+                android:id="@+id/set_text_view_function"
+                />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+            <Button
+                android:background="@drawable/bt_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/type1_colorAccent"
+                android:text="退出登录"
+                android:id="@+id/set_button_exit"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <declare-styleable name="SixangleView">
+         <!--文字大小-->
+        <attr name="txtSize" format="dimension" />
+        <!-- 绘制线条的颜色-->
+        <attr name="sixangle_edgecolor" format="color" />
+         <!--第一层填充的颜色-->
+        <attr name="sixangle_fillcolor" format="color" />
+         <!--第二层填充的颜色-->
+        <attr name="sixangle_secondfillcolor" format="color" />
+         <!--能力值数字字符串-->
+        <attr name="sixangle_strarray" format="reference" />
+    </declare-styleable>
+</resources>

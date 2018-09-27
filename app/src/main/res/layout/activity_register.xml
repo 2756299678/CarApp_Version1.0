@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_logon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.baohui.carapp_version10.Activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/shouji"
+            android:id="@+id/ivShouJi"
+            android:layout_marginTop="25dp"/>
+        <View
+            android:layout_height="3px"
+            android:background="#33000000"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/vwLine" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/etPhoneNumber"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-32dp"
+            android:background="@null"
+            android:textSize="16sp"
+            android:hint="请输入手机号"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/mima"
+            android:id="@+id/ivMiMa"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="1dp"/>
+        <View
+            android:layout_height="3px"
+            android:background="#33000000"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/vwLine2" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/etPassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-32dp"
+            android:background="@null"
+            android:textSize="16sp"
+            android:hint="设置登录密码，不少于6位"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/mima"
+            android:id="@+id/ivMiMa2"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="1dp"/>
+        <View
+            android:layout_height="3px"
+            android:background="#33000000"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/vwLine3" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/etPassword2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-32dp"
+            android:background="@null"
+            android:textSize="16sp"
+            android:hint="确认登录密码"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <Button
+            android:id="@+id/bnLogon"
+            android:layout_width="325dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_selector"
+            android:orientation="horizontal"
+            android:text="下一步"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="Logon_Click">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

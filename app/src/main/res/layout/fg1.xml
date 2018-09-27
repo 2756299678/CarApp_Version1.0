@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="10dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5px"
+                android:textAlignment="center"
+                android:layout_marginBottom="20px"
+                >
+
+
+                <TextView
+                    android:text="心率"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewheart"
+                    android:textColor="@color/type1_colorPrimary"
+                    android:textSize="60px"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:src="@drawable/heart2"
+                    android:id="@+id/imageView3"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="30dp" />
+
+                <com.example.baohui.carapp_version10.view.ColorArcProgressBar
+                    android:id="@+id/color_arc_progressbar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:back_color="@android:color/darker_gray"
+                    app:back_width="10dp"
+                    app:front_color1="#FB7E00"
+                    app:front_color2="#FAC405"
+                    app:front_color3="#73CC7C"
+                    app:front_color4="#06A2F3"
+                    app:front_color5="#0079FC"
+                    app:front_width="10dp"
+                    app:is_need_content="true"
+                    app:is_need_dial="true"
+                    app:is_need_title="true"
+                    app:is_need_unit="true"
+                    app:max_value="120"
+                    app:string_title="心跳频率低"
+                    app:string_unit="BETA"
+                    app:total_engle="230"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-70dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="-60dp"
+                >
+
+                <ImageView
+
+                    android:layout_height="70px"
+                    android:layout_weight="1"
+
+                    android:src="@drawable/aleart"
+                    android:id="@+id/imageViewicon"
+                    android:layout_width="wrap_content"
+                    android:scaleType="fitEnd"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:text="  测量时间：04-19  19：13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/text_view_time1"
+                    android:textColor="@color/type1_colorPrimary"
+                    android:layout_marginTop="5px"
+                    android:textSize="40px"
+                    android:layout_marginLeft="0px"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:text="您的心率正常，请继续保持良好的生活习惯"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/text_view_tip1"
+                android:gravity="center"
+                android:textColor="@color/type1_colorAccent"
+                android:background="@color/type1_colorPrimary"
+                android:layout_weight="0.07"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:layout_alignParentStart="true"
+
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20px"
+                >
+                <TextView
+                    android:text="    血压测量值："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/textViewcontent1"
+                    android:textColor="@color/type1_content_text"
+                    android:layout_marginTop="25px"
+                    android:textSize="40px"
+                    android:layout_marginLeft="0px"
+                    android:layout_gravity="left"
+                    />
+            </LinearLayout>
+            <TextView
+                android:text="    扩张压：104mmhg    收缩压：86mmhg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_xueya1"
+                android:textColor="@color/type1_content_text"
+                android:layout_marginTop="25px"
+                android:textSize="40px"
+                android:layout_marginLeft="0px"
+                android:layout_gravity="left"
+                android:textAlignment="center"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DC143C"
+                android:layout_marginTop="25px"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="20px"
+                >
+                <TextView
+                    android:text="    速度：75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/text_view_tiwen1"
+                    android:textColor="@color/type1_content_text"
+                    android:layout_marginTop="25px"
+                    android:textSize="40px"
+                    android:layout_marginLeft="0px"
+                    android:layout_gravity="left"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DC143C"
+                android:layout_marginTop="25px"/>
+
+ km/h
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+ </ScrollView>
