@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.jude\rollviewpager\1.2.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9229a89cbb43d66d573e975cc3fdab425bec4372">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jude-rollviewpager-1.2.9_9f7177387e5fb3ce685113ca7016bc4dbc23bf8c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-im\2.0.5\jars\libs\BmobNewIM_2.0.5_20160601.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b535a2906149ccebadc4b1cab0126130916842ea">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\BmobNewIM_2.0.5_20160601_cecaf44bb911c0dae18cefd91452e83cecd0e22d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.0_a9adfbdc02313362190450d2499419324b1f5f85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.0_6f233ed0e4638754b4c0128941bd238cca841b9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\libs\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="79f0c1e382e8b62e91064ef6b71130dda83f338e">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_b90f1f6fc7395a275577030a605a6e7e7e3db35b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-im\2.0.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="46b64293efb94feb03e6270d400f95b2664513f6">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bmob.android-bmob-im-2.0.5_0cb0c18e818bc5633dbc0ca8b3793e4d64d60029\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\BaoHui\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-sms\1.0.1\df9db564e2842696a68deca39b0186aebf3dc07c\bmob-sms-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="df9db564e2842696a68deca39b0186aebf3dc07c">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\bmob-sms-1.0.1_2dfe99742d3351bead3b80b5ec67e00d07d48603\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-im\2.0.5\jars\libs\androidasync-2.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4c88f1359a331cff1ea593267d1f63dca63b364b">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\androidasync-2.1.6_dc958e0c913ac77a9091957246251912d67d70ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ba419ff16cd942be285974c95c4b9d952cb15c96">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e900e75f847328dab1a459211f0472cfc4eaa526\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ac71d1248d0f3577b39093396e6ff35582a5d7a4">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\cn.bmob.android-bmob-sdk-3.5.5_c910bbf566ba5fd59655a51f3cc7b300de06132f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.0_1cb53a59e56ce546cd4e12297a9e7fd072f9cf3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.0_4a35d5081a4f72d7fbb5fbc590dee34c11469822\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\design\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.3.0_43ec1162fc9fa587f2e8be3b3f1615fbeeb930d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\libs\BmobSDK_3.5.5_20170420.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f67cfc97fcbde8b4764f01135b10afa716ae1a40">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.5_20170420_1cdaa677b1cc1f61cb5a6df700df93ff0ad5b5c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\BaoHui\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-push\0.8\2fe391ed9034cd023de1da05cb8da77e08b46245\bmob-push-0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2fe391ed9034cd023de1da05cb8da77e08b46245">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\bmob-push-0.8_a26f7d86217b2114d76350e4ff06680a9d35c86e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\BaoHui\.gradle\caches\modules-2\files-2.1\cn.bmob.android\http-legacy\1.0\5320fd78dd7f154e586970d4f02befc9b58432aa\http-legacy-1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\http-legacy-1.0_26eaf186e80c8bf2abc7d51d7568a4507d0349b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\pl.droidsonroids.gif\android-gif-drawable\1.2.8\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b445f5d808bea6c0a2b48845ea22bb66040486aa">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\pl.droidsonroids.gif-android-gif-drawable-1.2.8_ab6a7847615494270f0a6887c2d5e49adbb74587\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.0_29b5c3128fa53088387f65525e43f18b1526700d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_dd7d06e6a379040aeddf777a25766fbb2d7360fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2725d3b94d29c321467579191edf3188e3f00d7b">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_77f80707ff28920873ca3f79aca5c9458e493440\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_1e2767091c10b1a07d45026220f4e0b4ae0b48c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_1e512152d31d48b6df65f86e25cc6bd750694d4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.0_fdc7486bcf407b1c40c5f1107bf5700e582a34c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.0_0ca4ec94d74df01cbe5e6e905965fc7d8e58ad58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f64e0f80ef26fbc722b4bc9f024370d5b1e8f6d6">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.7.0_0b40a129b77c7dc9d098367540401b003ff707c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.0_e1e55627fe919645c02f29f6726fee0afe507f0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.3.0_7dadf39752615624d15f79c7c17317313ac689ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cea3a9be08d0dcf89783b2cc87c8787fdb2a0d12">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_30491e06d2e566c6fa23fc465473b2c6a7080a13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.roughike\bottom-bar\2.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a9cbdabba632cbf8be001cdbf34110cf42a64015">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.roughike-bottom-bar-2.3.1_2a190902195c2334f05eac5f88748d37b08ff2fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.0_78ca2b738c4ff06a2dcfb5def05b65ebcb635de8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidSdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_3f1971cb073f07f3b7c1e9d506b53a2afdb6c0b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\libs\mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-1-6_d27e4d04999512a313fc3b08578cbd37224d07ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.0_5d7d09593699e4c1066ef53ae3a675f4accf795e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="84127ad71f76445b8215afceb38e8b05f58eafa6">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-1.2.0_3ee2fc829c3ecf320385ae425cf5b13bdaa1124c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.5\jars\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e009af854d43130a9a13bcba900ddd1124e835d5">
+        <dex dex="F:\android\androidworkplace\CarApp_Version1.0\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_65e91819e4c1ff5b0573f5611c5bdfe4c6eee64e\classes.dex" />
+    </item>
+
+</items>
